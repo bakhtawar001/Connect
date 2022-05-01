@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="50" passed="39" failed="2" skipped="9">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-23T10:03:02 PKT" name="Default suite" finished-at="2022-04-23T10:15:24 PKT" duration-ms="742022">
+    <groups>
+    </groups>
+    <test started-at="2022-04-23T10:03:02 PKT" name="Default test" finished-at="2022-04-23T10:15:24 PKT" duration-ms="742022">
+      <class name="Master.ConnectExecution">
+        <test-method is-config="true" signature="Browser_Chrome()[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:02 PKT" name="Browser_Chrome" finished-at="2022-04-23T10:03:34 PKT" duration-ms="32173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Chrome -->
+        <test-method signature="ConnectLoginApp()[pri:1, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:34 PKT" name="ConnectLoginApp" finished-at="2022-04-23T10:03:47 PKT" duration-ms="13405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectLoginApp -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:48 PKT" name="getResult" finished-at="2022-04-23T10:03:50 PKT" duration-ms="2502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConnectLoginApp status=SUCCESS method=ConnectExecution.ConnectLoginApp()[pri:1, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TransactionNewCard()[pri:2, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:50 PKT" name="TransactionNewCard" finished-at="2022-04-23T10:03:50 PKT" duration-ms="33" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.TransactionNewCard(ConnectExecution.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransactionNewCard -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:50 PKT" name="getResult" finished-at="2022-04-23T10:03:51 PKT" duration-ms="709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TransactionNewCard status=SKIP method=ConnectExecution.TransactionNewCard()[pri:2, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Transactionsavecardverification()[pri:3, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:51 PKT" name="Transactionsavecardverification" finished-at="2022-04-23T10:03:51 PKT" duration-ms="69" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.Transactionsavecardverification(ConnectExecution.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Transactionsavecardverification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:51 PKT" name="getResult" finished-at="2022-04-23T10:03:51 PKT" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Transactionsavecardverification status=SKIP method=ConnectExecution.Transactionsavecardverification()[pri:3, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Remove_CreditCard()[pri:4, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:51 PKT" name="Remove_CreditCard" finished-at="2022-04-23T10:03:51 PKT" duration-ms="42" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.Remove_CreditCard(ConnectExecution.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remove_CreditCard -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:51 PKT" name="getResult" finished-at="2022-04-23T10:03:52 PKT" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Remove_CreditCard status=SKIP method=ConnectExecution.Remove_CreditCard()[pri:4, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TransactionExistingCard()[pri:5, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:52 PKT" name="TransactionExistingCard" finished-at="2022-04-23T10:03:52 PKT" duration-ms="31" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.TransactionExistingCard(ConnectExecution.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransactionExistingCard -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:52 PKT" name="getResult" finished-at="2022-04-23T10:03:52 PKT" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TransactionExistingCard status=SKIP method=ConnectExecution.TransactionExistingCard()[pri:5, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ProspectListvalidation()[pri:6, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:03:52 PKT" name="ProspectListvalidation" finished-at="2022-04-23T10:04:03 PKT" duration-ms="11138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProspectListvalidation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:04:03 PKT" name="getResult" finished-at="2022-04-23T10:04:04 PKT" duration-ms="326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProspectListvalidation status=SUCCESS method=ConnectExecution.ProspectListvalidation()[pri:6, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AddDistFromPL()[pri:7, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:04:04 PKT" name="AddDistFromPL" finished-at="2022-04-23T10:04:04 PKT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDistFromPL -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:04:04 PKT" name="getResult" finished-at="2022-04-23T10:04:04 PKT" duration-ms="326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddDistFromPL status=SUCCESS method=ConnectExecution.AddDistFromPL()[pri:7, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Remove_DistFromPL()[pri:8, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:04:04 PKT" name="Remove_DistFromPL" finished-at="2022-04-23T10:06:05 PKT" duration-ms="121052" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@src,'RemoveIcon.png')]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea169f4208788bc64538714512fb6ac4, findElement {using=xpath, value=//input[contains(@src,'RemoveIcon.png')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54744/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea169f4208788bc64538714512fb6ac4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@src,'RemoveIcon.png')]"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'MACPK-WKS-0135', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea169f4208788bc64538714512fb6ac4, findElement {using=xpath, value=//input[contains(@src,'RemoveIcon.png')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\BAKHTA~1.NAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54744/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea169f4208788bc64538714512fb6ac4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy18.click(Unknown Source)
+at Master.ConnectScenarios.RemoveDistFromPL(ConnectScenarios.java:341)
+at Master.ConnectExecution.Remove_DistFromPL(ConnectExecution.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remove_DistFromPL -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:05 PKT" name="getResult" finished-at="2022-04-23T10:06:06 PKT" duration-ms="449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Remove_DistFromPL status=FAILURE method=ConnectExecution.Remove_DistFromPL()[pri:8, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Monitor_List()[pri:9, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:06 PKT" name="Monitor_List" finished-at="2022-04-23T10:06:14 PKT" duration-ms="8077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Monitor_List -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:14 PKT" name="getResult" finished-at="2022-04-23T10:06:14 PKT" duration-ms="499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Monitor_List status=SUCCESS method=ConnectExecution.Monitor_List()[pri:9, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AddandRemoveDistML()[pri:10, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:14 PKT" name="AddandRemoveDistML" finished-at="2022-04-23T10:06:14 PKT" duration-ms="155" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.AddandRemoveDistML(ConnectExecution.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddandRemoveDistML -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:14 PKT" name="getResult" finished-at="2022-04-23T10:06:15 PKT" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddandRemoveDistML status=SKIP method=ConnectExecution.AddandRemoveDistML()[pri:10, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="BasicSearchDistributor()[pri:11, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:15 PKT" name="BasicSearchDistributor" finished-at="2022-04-23T10:06:18 PKT" duration-ms="2976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicSearchDistributor -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:18 PKT" name="getResult" finished-at="2022-04-23T10:06:18 PKT" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasicSearchDistributor status=SUCCESS method=ConnectExecution.BasicSearchDistributor()[pri:11, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="BasicSearchCompany()[pri:12, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:18 PKT" name="BasicSearchCompany" finished-at="2022-04-23T10:06:42 PKT" duration-ms="24307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicSearchCompany -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:42 PKT" name="getResult" finished-at="2022-04-23T10:06:42 PKT" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasicSearchCompany status=SUCCESS method=ConnectExecution.BasicSearchCompany()[pri:12, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Advanced_SearchResult()[pri:13, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:42 PKT" name="Advanced_SearchResult" finished-at="2022-04-23T10:06:47 PKT" duration-ms="4858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Advanced_SearchResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:47 PKT" name="getResult" finished-at="2022-04-23T10:06:48 PKT" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Advanced_SearchResult status=SUCCESS method=ConnectExecution.Advanced_SearchResult()[pri:13, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AdvancedSearchStateDropDownResult()[pri:14, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:48 PKT" name="AdvancedSearchStateDropDownResult" finished-at="2022-04-23T10:06:51 PKT" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvancedSearchStateDropDownResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:51 PKT" name="getResult" finished-at="2022-04-23T10:06:51 PKT" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdvancedSearchStateDropDownResult status=SUCCESS method=ConnectExecution.AdvancedSearchStateDropDownResult()[pri:14, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AdvancedSearchRangeDropDownResult()[pri:15, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:51 PKT" name="AdvancedSearchRangeDropDownResult" finished-at="2022-04-23T10:06:55 PKT" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvancedSearchRangeDropDownResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:55 PKT" name="getResult" finished-at="2022-04-23T10:06:55 PKT" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdvancedSearchRangeDropDownResult status=SUCCESS method=ConnectExecution.AdvancedSearchRangeDropDownResult()[pri:15, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AdvancedSearchProductlineDropDownResult()[pri:16, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:06:55 PKT" name="AdvancedSearchProductlineDropDownResult" finished-at="2022-04-23T10:07:00 PKT" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvancedSearchProductlineDropDownResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:00 PKT" name="getResult" finished-at="2022-04-23T10:07:00 PKT" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdvancedSearchProductlineDropDownResult status=SUCCESS method=ConnectExecution.AdvancedSearchProductlineDropDownResult()[pri:16, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AdvancedSearchCustomerTypeDropDownResult()[pri:17, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:00 PKT" name="AdvancedSearchCustomerTypeDropDownResult" finished-at="2022-04-23T10:07:06 PKT" duration-ms="5939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvancedSearchCustomerTypeDropDownResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:06 PKT" name="getResult" finished-at="2022-04-23T10:07:06 PKT" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdvancedSearchCustomerTypeDropDownResult status=SUCCESS method=ConnectExecution.AdvancedSearchCustomerTypeDropDownResult()[pri:17, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AdvancedSearchPayHabitFromDropDownResult()[pri:18, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:06 PKT" name="AdvancedSearchPayHabitFromDropDownResult" finished-at="2022-04-23T10:07:10 PKT" duration-ms="3508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvancedSearchPayHabitFromDropDownResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:10 PKT" name="getResult" finished-at="2022-04-23T10:07:10 PKT" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdvancedSearchPayHabitFromDropDownResult status=SUCCESS method=ConnectExecution.AdvancedSearchPayHabitFromDropDownResult()[pri:18, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AdvancedSearchPayHabiToDropDownResult()[pri:19, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:10 PKT" name="AdvancedSearchPayHabiToDropDownResult" finished-at="2022-04-23T10:07:14 PKT" duration-ms="3502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvancedSearchPayHabiToDropDownResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:14 PKT" name="getResult" finished-at="2022-04-23T10:07:14 PKT" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdvancedSearchPayHabiToDropDownResult status=SUCCESS method=ConnectExecution.AdvancedSearchPayHabiToDropDownResult()[pri:19, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AdvancedSearchViewDaysDropDownResult()[pri:20, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:14 PKT" name="AdvancedSearchViewDaysDropDownResult" finished-at="2022-04-23T10:07:17 PKT" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvancedSearchViewDaysDropDownResult -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:17 PKT" name="getResult" finished-at="2022-04-23T10:07:17 PKT" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdvancedSearchViewDaysDropDownResult status=SUCCESS method=ConnectExecution.AdvancedSearchViewDaysDropDownResult()[pri:20, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Distributor_Profile_ESP_Product_Display()[pri:21, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:17 PKT" name="Distributor_Profile_ESP_Product_Display" finished-at="2022-04-23T10:07:31 PKT" duration-ms="14116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Distributor_Profile_ESP_Product_Display -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:31 PKT" name="getResult" finished-at="2022-04-23T10:07:32 PKT" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Distributor_Profile_ESP_Product_Display status=SUCCESS method=ConnectExecution.Distributor_Profile_ESP_Product_Display()[pri:21, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DistCreditScore()[pri:22, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:07:32 PKT" name="DistCreditScore" finished-at="2022-04-23T10:09:35 PKT" duration-ms="123573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DistCreditScore -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:35 PKT" name="getResult" finished-at="2022-04-23T10:09:36 PKT" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DistCreditScore status=SUCCESS method=ConnectExecution.DistCreditScore()[pri:22, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DistCreditHistoryCurrent6months()[pri:23, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:36 PKT" name="DistCreditHistoryCurrent6months" finished-at="2022-04-23T10:09:36 PKT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DistCreditHistoryCurrent6months -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:36 PKT" name="getResult" finished-at="2022-04-23T10:09:36 PKT" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DistCreditHistoryCurrent6months status=SUCCESS method=ConnectExecution.DistCreditHistoryCurrent6months()[pri:23, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DistCreditHistoryPre6months()[pri:24, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:36 PKT" name="DistCreditHistoryPre6months" finished-at="2022-04-23T10:09:38 PKT" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DistCreditHistoryPre6months -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:38 PKT" name="getResult" finished-at="2022-04-23T10:09:38 PKT" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DistCreditHistoryPre6months status=SUCCESS method=ConnectExecution.DistCreditHistoryPre6months()[pri:24, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DistributorCreditHistory_IndustryAverage()[pri:25, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:38 PKT" name="DistributorCreditHistory_IndustryAverage" finished-at="2022-04-23T10:09:38 PKT" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DistributorCreditHistory_IndustryAverage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:38 PKT" name="getResult" finished-at="2022-04-23T10:09:39 PKT" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DistributorCreditHistory_IndustryAverage status=SUCCESS method=ConnectExecution.DistributorCreditHistory_IndustryAverage()[pri:25, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DistributorCreditHistory_GeneralCredit()[pri:26, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:39 PKT" name="DistributorCreditHistory_GeneralCredit" finished-at="2022-04-23T10:09:40 PKT" duration-ms="1226" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: ""]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: ""
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+at java.base/java.lang.Integer.parseInt(Integer.java:662)
+at java.base/java.lang.Integer.parseInt(Integer.java:770)
+at Master.ConnectScenarios.DistCreditHistory_GeneralCredit(ConnectScenarios.java:691)
+at Master.ConnectExecution.DistributorCreditHistory_GeneralCredit(ConnectExecution.java:179)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DistributorCreditHistory_GeneralCredit -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:40 PKT" name="getResult" finished-at="2022-04-23T10:09:40 PKT" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DistributorCreditHistory_GeneralCredit status=FAILURE method=ConnectExecution.DistributorCreditHistory_GeneralCredit()[pri:26, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AveragePayingHabit_ReportsWithPurchases()[pri:27, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:40 PKT" name="AveragePayingHabit_ReportsWithPurchases" finished-at="2022-04-23T10:09:41 PKT" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AveragePayingHabit_ReportsWithPurchases -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:41 PKT" name="getResult" finished-at="2022-04-23T10:09:41 PKT" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AveragePayingHabit_ReportsWithPurchases status=SUCCESS method=ConnectExecution.AveragePayingHabit_ReportsWithPurchases()[pri:27, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AveragePayingHabit_TransactionWithPurchases()[pri:28, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:41 PKT" name="AveragePayingHabit_TransactionWithPurchases" finished-at="2022-04-23T10:09:42 PKT" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AveragePayingHabit_TransactionWithPurchases -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:42 PKT" name="getResult" finished-at="2022-04-23T10:09:42 PKT" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AveragePayingHabit_TransactionWithPurchases status=SUCCESS method=ConnectExecution.AveragePayingHabit_TransactionWithPurchases()[pri:28, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AveragePayingHabit_Volumn()[pri:29, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:42 PKT" name="AveragePayingHabit_Volumn" finished-at="2022-04-23T10:09:43 PKT" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AveragePayingHabit_Volumn -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:43 PKT" name="getResult" finished-at="2022-04-23T10:09:43 PKT" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AveragePayingHabit_Volumn status=SUCCESS method=ConnectExecution.AveragePayingHabit_Volumn()[pri:29, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Single_Transaction_Paid()[pri:30, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:43 PKT" name="Single_Transaction_Paid" finished-at="2022-04-23T10:09:43 PKT" duration-ms="20" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.Single_Transaction_Paid(ConnectExecution.java:200)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Single_Transaction_Paid -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:43 PKT" name="getResult" finished-at="2022-04-23T10:09:43 PKT" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Single_Transaction_Paid status=SKIP method=ConnectExecution.Single_Transaction_Paid()[pri:30, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="SingleTransactionCollection()[pri:31, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:43 PKT" name="SingleTransactionCollection" finished-at="2022-04-23T10:09:43 PKT" duration-ms="17" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.SingleTransactionCollection(ConnectExecution.java:207)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleTransactionCollection -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:43 PKT" name="getResult" finished-at="2022-04-23T10:09:43 PKT" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingleTransactionCollection status=SKIP method=ConnectExecution.SingleTransactionCollection()[pri:31, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="SingleTransactionWriteOff()[pri:32, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:43 PKT" name="SingleTransactionWriteOff" finished-at="2022-04-23T10:09:43 PKT" duration-ms="25" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.SingleTransactionWriteOff(ConnectExecution.java:214)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleTransactionWriteOff -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:43 PKT" name="getResult" finished-at="2022-04-23T10:09:44 PKT" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingleTransactionWriteOff status=SKIP method=ConnectExecution.SingleTransactionWriteOff()[pri:32, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="SingleTransactionPastDue()[pri:33, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:44 PKT" name="SingleTransactionPastDue" finished-at="2022-04-23T10:09:44 PKT" duration-ms="30" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this exception
+at Master.ConnectExecution.SingleTransactionPastDue(ConnectExecution.java:221)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleTransactionPastDue -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:44 PKT" name="getResult" finished-at="2022-04-23T10:09:44 PKT" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SingleTransactionPastDue status=SKIP method=ConnectExecution.SingleTransactionPastDue()[pri:33, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_ESPAnalyticsAppNavigation()[pri:34, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:44 PKT" name="Validate_ESPAnalyticsAppNavigation" finished-at="2022-04-23T10:09:57 PKT" duration-ms="12749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_ESPAnalyticsAppNavigation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:57 PKT" name="getResult" finished-at="2022-04-23T10:09:57 PKT" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_ESPAnalyticsAppNavigation status=SUCCESS method=ConnectExecution.Validate_ESPAnalyticsAppNavigation()[pri:34, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_EmailMarketingAppNavigation()[pri:35, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:09:57 PKT" name="Validate_EmailMarketingAppNavigation" finished-at="2022-04-23T10:10:16 PKT" duration-ms="19113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_EmailMarketingAppNavigation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:10:16 PKT" name="getResult" finished-at="2022-04-23T10:10:16 PKT" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_EmailMarketingAppNavigation status=SUCCESS method=ConnectExecution.Validate_EmailMarketingAppNavigation()[pri:35, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_ESPUpdatesAppNavigation()[pri:36, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:10:16 PKT" name="Validate_ESPUpdatesAppNavigation" finished-at="2022-04-23T10:10:42 PKT" duration-ms="25849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_ESPUpdatesAppNavigation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:10:42 PKT" name="getResult" finished-at="2022-04-23T10:10:42 PKT" duration-ms="282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_ESPUpdatesAppNavigation status=SUCCESS method=ConnectExecution.Validate_ESPUpdatesAppNavigation()[pri:36, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_ASIStore_ASIMagazines()[pri:37, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:10:42 PKT" name="Validate_FooterLink_ASIStore_ASIMagazines" finished-at="2022-04-23T10:10:57 PKT" duration-ms="14281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_ASIStore_ASIMagazines -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:10:57 PKT" name="getResult" finished-at="2022-04-23T10:10:57 PKT" duration-ms="534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_ASIStore_ASIMagazines status=SUCCESS method=ConnectExecution.Validate_FooterLink_ASIStore_ASIMagazines()[pri:37, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_ASIStore_Connect()[pri:38, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:10:57 PKT" name="Validate_FooterLink_ASIStore_Connect" finished-at="2022-04-23T10:11:08 PKT" duration-ms="11019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_ASIStore_Connect -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:11:08 PKT" name="getResult" finished-at="2022-04-23T10:11:09 PKT" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_ASIStore_Connect status=SUCCESS method=ConnectExecution.Validate_FooterLink_ASIStore_Connect()[pri:38, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_ASIStore_ESPWeb()[pri:39, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:11:09 PKT" name="Validate_FooterLink_ASIStore_ESPWeb" finished-at="2022-04-23T10:11:40 PKT" duration-ms="31104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_ASIStore_ESPWeb -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:11:40 PKT" name="getResult" finished-at="2022-04-23T10:11:40 PKT" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_ASIStore_ESPWeb status=SUCCESS method=ConnectExecution.Validate_FooterLink_ASIStore_ESPWeb()[pri:39, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_ASIStore_ESPAdvertising()[pri:40, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:11:40 PKT" name="Validate_FooterLink_ASIStore_ESPAdvertising" finished-at="2022-04-23T10:12:00 PKT" duration-ms="20046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_ASIStore_ESPAdvertising -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:12:00 PKT" name="getResult" finished-at="2022-04-23T10:12:00 PKT" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_ASIStore_ESPAdvertising status=SUCCESS method=ConnectExecution.Validate_FooterLink_ASIStore_ESPAdvertising()[pri:40, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_ASIStore_ESPWebsite()[pri:41, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:12:00 PKT" name="Validate_FooterLink_ASIStore_ESPWebsite" finished-at="2022-04-23T10:12:17 PKT" duration-ms="16886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_ASIStore_ESPWebsite -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:12:17 PKT" name="getResult" finished-at="2022-04-23T10:12:17 PKT" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_ASIStore_ESPWebsite status=SUCCESS method=ConnectExecution.Validate_FooterLink_ASIStore_ESPWebsite()[pri:41, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_ASIStore_EmailExpress()[pri:42, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:12:17 PKT" name="Validate_FooterLink_ASIStore_EmailExpress" finished-at="2022-04-23T10:12:34 PKT" duration-ms="16492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_ASIStore_EmailExpress -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:12:34 PKT" name="getResult" finished-at="2022-04-23T10:12:34 PKT" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_ASIStore_EmailExpress status=SUCCESS method=ConnectExecution.Validate_FooterLink_ASIStore_EmailExpress()[pri:42, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_ASIStore_ASISalesPro()[pri:43, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:12:34 PKT" name="Validate_FooterLink_ASIStore_ASISalesPro" finished-at="2022-04-23T10:12:44 PKT" duration-ms="9776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_ASIStore_ASISalesPro -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:12:44 PKT" name="getResult" finished-at="2022-04-23T10:12:44 PKT" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_ASIStore_ASISalesPro status=SUCCESS method=ConnectExecution.Validate_FooterLink_ASIStore_ASISalesPro()[pri:43, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_Community_ASICentral()[pri:44, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:12:44 PKT" name="Validate_FooterLink_Community_ASICentral" finished-at="2022-04-23T10:13:18 PKT" duration-ms="33961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_Community_ASICentral -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:13:18 PKT" name="getResult" finished-at="2022-04-23T10:13:18 PKT" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_Community_ASICentral status=SUCCESS method=ConnectExecution.Validate_FooterLink_Community_ASICentral()[pri:44, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_Community_TimAndrewsBlog()[pri:45, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:13:18 PKT" name="Validate_FooterLink_Community_TimAndrewsBlog" finished-at="2022-04-23T10:13:44 PKT" duration-ms="25502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_Community_TimAndrewsBlog -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:13:44 PKT" name="getResult" finished-at="2022-04-23T10:13:44 PKT" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_Community_TimAndrewsBlog status=SUCCESS method=ConnectExecution.Validate_FooterLink_Community_TimAndrewsBlog()[pri:45, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_CommunityASIFacebook()[pri:46, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:13:44 PKT" name="Validate_FooterLink_CommunityASIFacebook" finished-at="2022-04-23T10:14:13 PKT" duration-ms="28397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_CommunityASIFacebook -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:14:13 PKT" name="getResult" finished-at="2022-04-23T10:14:13 PKT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_CommunityASIFacebook status=SUCCESS method=ConnectExecution.Validate_FooterLink_CommunityASIFacebook()[pri:46, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_Community_ASIYoutube()[pri:47, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:14:13 PKT" name="Validate_FooterLink_Community_ASIYoutube" finished-at="2022-04-23T10:14:32 PKT" duration-ms="19511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_Community_ASIYoutube -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:14:32 PKT" name="getResult" finished-at="2022-04-23T10:14:32 PKT" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_Community_ASIYoutube status=SUCCESS method=ConnectExecution.Validate_FooterLink_Community_ASIYoutube()[pri:47, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_Company_AboutASI()[pri:48, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:14:32 PKT" name="Validate_FooterLink_Company_AboutASI" finished-at="2022-04-23T10:14:48 PKT" duration-ms="15568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_Company_AboutASI -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:14:48 PKT" name="getResult" finished-at="2022-04-23T10:14:48 PKT" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_Company_AboutASI status=SUCCESS method=ConnectExecution.Validate_FooterLink_Company_AboutASI()[pri:48, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_Company_PressReleases()[pri:49, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:14:48 PKT" name="Validate_FooterLink_Company_PressReleases" finished-at="2022-04-23T10:15:01 PKT" duration-ms="12704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_Company_PressReleases -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:15:01 PKT" name="getResult" finished-at="2022-04-23T10:15:01 PKT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_Company_PressReleases status=SUCCESS method=ConnectExecution.Validate_FooterLink_Company_PressReleases()[pri:49, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Validate_FooterLink_Company_ASICareers()[pri:50, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:15:01 PKT" name="Validate_FooterLink_Company_ASICareers" finished-at="2022-04-23T10:15:23 PKT" duration-ms="22422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FooterLink_Company_ASICareers -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:15:23 PKT" name="getResult" finished-at="2022-04-23T10:15:24 PKT" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_FooterLink_Company_ASICareers status=SUCCESS method=ConnectExecution.Validate_FooterLink_Company_ASICareers()[pri:50, instance:Master.ConnectExecution@5acf93bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Master.ConnectExecution@5acf93bb]" started-at="2022-04-23T10:15:24 PKT" name="closebrowser" finished-at="2022-04-23T10:15:25 PKT" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Master.ConnectExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
